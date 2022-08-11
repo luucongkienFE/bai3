@@ -1,0 +1,363 @@
+@media only screen and (max-width: 576px) {
+	.container{
+		max-width: 100% !important;
+	}
+	.collapse{
+		display: none;
+	}
+	.nav-bar{
+		display: flex !important;
+		flex-wrap: nowrap !important;
+		margin: 0 !important;
+	}
+	.nav_bars{
+		padding: 20px 15px;
+	}
+	.category-a .nav-link {
+    height: 60px;
+    display: flex;
+    padding: 0;
+    width: 100%;
+    color: white !important;
+    background-color: #ef8b59;
+	}
+	.category-a h6 {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 20px;
+    height: 15px;
+    font-size: 15px;
+    font-weight: 600;
+	}
+
+    .category-a .dropdown-toggle::after {
+    margin: 25px 15px 0 10px;
+    font-size: 27px;
+	}
+	.dropdown-menu{
+		min-width: 9rem;
+	}
+	.dropdown-menu li {
+    border: 1px solid white;
+	}
+	.dropdown-item{
+		padding: 0.3rem !important;
+		font-size: 10px;
+	}
+	.category-a .dropdown-menu {
+			position: absolute;
+			left: 0;
+			border: 0;
+			color: white;
+			font-size: 16px;
+			font-weight: 600;
+			min-width: 9.41rem;
+			width: 13.25%;
+		}
+	.fa-cart-plus:before {
+    margin-left: 20px;
+}
+
+		/*MAIN*/
+	/*SECTION-2*/
+	.carousel-caption{
+	position: absolute;
+	max-width: 42%;
+	left: 3% !important;
+	width: 660px;
+	top: 0%;
+	text-align: left;
+}
+.carousel-caption h1{
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 10px;
+}
+.carousel-caption p{ 
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	padding: 0;
+	margin-bottom: 10px !important;
+	font-size: 10px;
+	color: black;
+}
+.btn_shopnow{
+	position: absolute;
+	left: 0;
+	width: 60%;
+	padding: 2px 15px;
+	border-radius: 10px;
+	color: #ffffff;
+	background-color: #ef8b59;
+	border: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 10px;
+}
+
+		/*SECTION-3*/
+		.section-3{
+			padding-bottom: 20px !important;
+		}
+.section-3 .container{
+	padding: 0;
+		margin: 0;
+		max-width: 100%;
+	}
+	.section-3 h1{
+		font-size: 25px;
+		padding-top: 20px;
+	}
+	.section-3 h6{
+		padding-top: 4px;
+		font-size: 13px;
+	}
+	.hr{
+		margin: 25px auto;
+	}
+		/*SECTION-4*/
+	.gallery {
+		padding: 20px 0;
+	}
+	.gallery__item--1 {
+		object-fit: cover;
+	  grid-column-start: 1;
+	  grid-column-end: 9;
+	  grid-row-start: 1;
+	  grid-row-end: 10;
+	}
+
+	.gallery__item--2 {
+		object-fit: cover;
+	  grid-column-start: 1;
+	  grid-column-end: 5;
+	  grid-row-start: 10;
+	  grid-row-end: 20;
+	}
+
+	.gallery__item--3 {
+		object-fit: cover;
+	  grid-column-start:5;
+	  grid-column-end: 9;
+	  grid-row-start: 10;
+	  grid-row-end: 20;
+	}
+
+	.gallery__item--4 {
+		object-fit: cover;
+	  grid-column-start: 1;
+	  grid-column-end: 5;
+	  grid-row-start: 20;
+	  grid-row-end: 30;
+	}
+
+	.gallery__item--5 {
+		object-fit: cover;
+	  grid-column-start: 5;
+	  grid-column-end: 9;
+	  grid-row-start: 20;
+	  grid-row-end: 30;
+	}
+
+	.gallery__item--6 {
+		object-fit: cover;
+	  grid-column-start: 1;
+	  grid-column-end: 9;
+	  grid-row-start: 30;
+	  grid-row-end: 40;
+	}
+	/*section-5*/
+	.item {
+		padding: 0;
+	}
+	.section-5{
+	}
+	.section-5 h1{
+		padding-top: 20px;
+		font-size: 25px;
+	}
+	.section-5 h6{
+		padding-top: 4px;
+		font-size: 13px;
+	}
+	.section-5 .container {
+		padding: 0;
+	}
+	/*section-6*/
+	.section-6{
+		padding-top: 20px !important ;
+	}
+	.modern{
+		padding: 20px 12px 0 12px ;
+	}
+	.modern h1{
+		font-size: 25px;
+		padding-bottom: 12px;
+	}
+	.modern p{
+		margin: 0;
+		padding: 0 0 12px 0;
+		width: 100%;
+		font-size: 15px;
+
+	}
+
+	.img-top{
+	height: 332px;
+	}
+	.img-small{
+		top: 310px;
+		left: 10%;
+	}
+	.card-title1{
+	padding-left: 10%;
+	text-align: left;
+	font-family: 'Nunito Sans', sans-serif !important;
+	padding-top: 30px !important;
+	padding-bottom: 10px !important;
+	margin: 0;
+	color: #5b5b5b;
+}
+.card-title2{
+	padding-left: 10%;
+	margin: 0;
+	text-align: left ;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif !important;
+	padding-bottom: 10px !important;
+	color: #151515;
+}
+.card-text1{
+	margin: 0;
+	padding-left: 10%;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 15px !important;
+	color: #929292;
+}
+.card-text2{margin: 0;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: 'Nunito Sans', sans-serif !important;
+	border-top: 2px solid #d8d8d8;
+	padding: 20px 0 20px 30px;
+	color: #e73100;
+}
+.latest{
+	position: relative;
+	padding-right: 10px;
+}
+	/*section-7 */
+	.section-7 h1{
+		padding-top: 20px;
+		font-size: 25px;
+	}
+	.section-7 h6{
+		padding-top: 4px;
+		font-size: 13px;
+	}
+	.slider-card{
+		
+	}
+	/*section-9*/
+	/*.form-control {
+    position: relative;
+    top: 10px;
+    margin-top: 20px;
+    width: 150% !important;
+    left: -30%;
+    border-radius: 50px !important;
+    background-color: #f1f1f1 !important;
+    border: 0px solid #ced4da !important;
+    height: 35px;
+    margin-bottom: 100px;
+}*/
+.btn{
+	font-family: font-family: 'Poppins', sans-serif;
+	font-weight: 600 !important;
+	background-color: #222222 !important;
+	color: #ffffff !important;
+}
+/*section-8 */
+	.section-8 h1{
+		padding-top: 20px;
+		font-size: 25px;
+	}
+	.section-8 h6{
+		padding-top: 4px;
+		font-size: 13px;
+	}
+	.carousel8 .owl-stage-outer .owl-stage{
+		height: 350px;
+	}
+	.carousel8 .owl-stage{
+		padding: 0;
+		height: 385px;
+	}
+	.carousel8 .owl-nav{
+		text-align: center;
+	}
+	.carousel8 .owl-nav button.owl-next{
+		color: #ef8b59 !important;
+		margin-left: 5px;
+	}
+	.carousel8 .owl-nav button.owl-prev{
+	 	color: #ef8b59 !important;
+	 	margin-right: 5px;
+	}
+	.owl-item.animated {
+		display: none;
+	}
+	.item2{
+		left: 50%;
+		transform: translate(-50%,50%);
+		margin: 0;
+	}
+	.item3{
+		font-size: 20px;
+		transform: translate(0%,36%);
+		padding: 0 20px;
+	}
+	.avatar2{
+
+	}
+	/*section-9 */
+	.section-9 h1{
+		padding-top: 20px;
+		font-size: 25px;
+	}
+	.section-9 h6{
+		padding-top: 4px;
+		font-size: 13px;
+	}
+	.input-group {
+		width: 90% !important;
+		padding-bottom: 20px;
+	}
+	.input-group .btn{
+		width: 100px;
+		padding: 0;
+	}
+	.form-control{
+		height: 40px;
+	}
+	.btn{
+		height: 40px;
+	}
+/* section-10*/
+.pfooter .row{
+	text-align: center;
+}
+.company{
+	padding: 20px 0 !important;
+}
+.footer-content{
+	padding-top: 0px;
+	margin: 0;
+}
+.list-unstyled p{
+	width: 100%;
+}
